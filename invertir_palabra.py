@@ -4,6 +4,13 @@
 
 #Vector que almacenará los datos
 N=[]
+
+#librerias
+import os
+
+#Limpiar pantalla
+os.system("cls")
+
 def ingresarpantalla():
    
 
@@ -27,10 +34,11 @@ def invertir():
 
 while 1==1:
     print("::: MENÚ PRINCIPAL :::")
-    print("[1]: ingresar palabra")
-    print("[2]: ingresar palabra")
-    print("[3: ingresar palabra")
-    x=int(input("digite opcion "))
+    print("[1]: Ingresar Palabra")
+    print("[2]: Mostrar Palabra")
+    print("[3]: Mostrar Palabra (Invertida)")
+    print("[4]: Salir")
+    x=int(input("Seleccione una opción "))
     if x==1:
         ingresarpantalla()
     elif x==2:
